@@ -1,0 +1,678 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700);
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+h1{
+	color: #FFFAFA;
+	padding-left: 10%;
+    padding-right: 10%;
+	padding-top: 2%;
+	font-size: 350%;
+	text-transform: uppercase;
+}
+
+/*for header 1*/
+.ht{
+    padding-right: 10%;
+    padding-left: 5%;
+    background: #202020;
+}
+
+body{
+	font-size: 75%;
+	background: #32353a;
+    font-weight: 300;
+    color: #CFCFC4;
+    padding: 20px;
+    font-family: "Roboto","Arial";
+    line-height: 1.55;
+    text-rendering: optimizeLegibility;
+    -webkit-backface-visibility: hidden;
+    overflow-x: hidden;
+}
+
+main{
+	padding-bottom: 3%;
+}
+
+
+nav.main-navigation {
+    text-align: right;
+    margin-top: 10px;
+}
+
+ul.main-menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ul.main-menu li a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+ul.main-menu li a.active {
+    background: #4e91c9;
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    ul.main-menu {
+        background: #26282c;
+        padding: 10px 0;
+    }
+
+    ul.main-menu li {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    ul.main-menu li a {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    ul.main-menu li a.active {
+        background: inherit;
+        color: #4e91c9;
+    }
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.mid{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	font-size: 200%;
+
+	-webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -ms-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+div.text{
+	text-align: center;
+	font-size: 150%;
+}
+
+/*for skills*/
+.lan{
+    text-align: center;
+    font-size: 150%;
+
+    -webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+
+}
+
+.hl{
+    padding-top: 2%;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: bold;
+
+    -webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+main.ach{
+	padding-top: 3%;
+	text-align: center;
+	font-size: 150%;
+}
+
+/*for school achivements header*/
+.achiev{
+	-webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -ms-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+/*for university achievements header*/
+.achievUni{
+	-webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+/*university achievements*/
+.uni{
+	-webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+/*grades header*/
+.gr{
+    font-size: 140%;
+     -webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+  -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+table{
+  font-weight: bold;
+  width: 75%;
+  margin: 0 auto;
+
+  -webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+  -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+th{
+  background:#120A8f -webkit-linear-gradient(#1560BD,#30D5C8);
+  background:#120A8f -moz-linear-gradient(#1560BD,#30D5C8);
+  background:#120A8f -o-linear-gradient(#1560BD,#30D5C8);
+  background:#120A8f linear-gradient(#1560BD,#30D5C8);
+
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+
+  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+th,td{
+    padding: 2%;
+    text-align: center;
+}
+
+tr td{
+  opacity: 0.8;
+}
+
+tr:hover td{
+  opacity: 1;
+}
+
+td{
+  padding:1%;
+  color: #082567;
+  background: #CFCFC4;
+  border-radius: 3px;  
+
+}
+
+.project-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-item img {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	border-radius: 300%;
+	width: 25%;
+	height: auto;
+}
+
+.overlay h4 {
+    font-size: 18px;
+}
+
+.overlay h4 a {
+    color: #fff;
+}
+
+.project-items {
+	 border: 3px solid #1a1c1f;
+    position: relative;
+    width: 60%;
+    border: 5% solid #1a1c1f;
+}
+
+.image{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.newpr img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+
+	-webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -ms-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+.mob{
+	font-size: 150%;
+	padding-top: 2%;
+	text-align: center;
+}
+
+.mail{
+	text-align: center;
+}
+.link{
+	text-align: center;
+	font-size: 200%;
+}
+
+.fa {
+  padding: 2%;
+  font-size: 70%;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.m{
+	font-size: 150%;
+}
+
+.fa-phone{
+	color: white;
+}
+
+.fa-envelope{
+	color:white
+}
+
+.fa-facebook {
+  background: #32353a;
+  color: white;
+}
+
+.fa-twitter {
+  background: #32353a;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #32353a;
+  color: white;
+}
+
+.fa-instagram {
+  background: #32353a;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #32353a;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.p3-text{
+	padding-top: 3%;
+	float: right;
+	width: 35%;
+	font-size: 150%;
+
+}
+
+@-webkit-keyframes umScaleIn {
+    0% { opacity: 0;-webkit-transform: scale(1.2); }
+    100% { opacity: 1;-webkit-transform: scale(1); }
+}
+
+@-moz-keyframes umScaleIn {
+    0% { opacity: 0;-moz-transform: scale(1.2); }
+    100% { opacity: 1;-moz-transform: scale(1); }
+}
+
+@-o-keyframes umScaleIn {
+    0% { opacity: 0;-o-transform: scale(1.2); }
+    100% { opacity: 1;-o-transform: scale(1); }
+}
+
+.animated.umScaleIn {
+    -webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
+
+.animated.umScaleIn {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+/*project description*/
+.int{
+	font-size: 120%;
+	padding-left: 3%;
+}
+
+/*project name*/
+.inpr{
+    font-size: 180%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: bold;
+}
+
+/*project image*/
+.new img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: auto;
+}
+
+.pr-0 img{
+    width: 50%;
+}
+
+/*delay for every project and interest*/
+.i-0 {
+    -webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.i-1 {
+    -webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+.i-2 {
+    -webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.i-3 {
+    -webkit-animation-name: umScaleIn;
+    -moz-animation-name: umScaleIn;
+    -ms-animation-name: umScaleIn;
+    -o-animation-name: umScaleIn;
+    animation-name: umScaleIn;
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -ms-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 2.5s;
+    -moz-animation-duration: 2.5s;
+    -ms-animation-duration: 2.5s;
+    -o-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+
+.main-footer {
+    border-top: 2px solid #46494f;
+    border-bottom: 2px solid #46494f;
+    padding: 30px 0 15px 0;
+}
+
+hr.line{
+	border-top: 1px solid #C4C3D0;
+	
+}
+
+.copyright {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.copyright p {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+span[class*="border-"] {
+    position: fixed;
+    background: #1f2122;
+}
+
+.border-top {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.border-left {
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 100%;
+}
+
+.border-bottom {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.border-right {
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+}
+
+span.shape-1 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: url("shape-1.png") no-repeat;
+}
+
+span.shape-2 {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background: url("shape-2.png") no-repeat;
+}
